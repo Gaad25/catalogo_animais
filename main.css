@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    /* Restante do seu CSS */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Bungee Spice', cursive;
+    /* Outros estilos de título, se necessário */
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+}
+header li a {
+    margin-right: 30px; 
+}
+
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #ccc 1px solid;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    display: inline;
+    padding: 0 20px;
+}
+section {
+    padding: 20px 0;
+    background: #eaeaea;
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+section p {
+    margin: 15px 0;
+}
+.reptiles-link {
+    background: #4CAF50;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.mammals-link {
+    background: #008CBA;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white; 
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    header li {
+        display: block;
+        padding: 10px;
+    }
+}
+section img {
+    max-width: 100%; 
+    height: auto; 
+    display: block;
+    max-height: 300px; 
+}
+.birds-link {
+    background: #FFD700; 
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white; 
+    transition: background-color 0.3s ease; 
+}
+
